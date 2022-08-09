@@ -13,7 +13,7 @@ struct AnimationsApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            Paris_animation()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

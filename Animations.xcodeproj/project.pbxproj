@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5592B25D28A21CB800DB0461 /* AnimationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B25C28A21CB800DB0461 /* AnimationsApp.swift */; };
-		5592B25F28A21CB800DB0461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B25E28A21CB800DB0461 /* ContentView.swift */; };
 		5592B26128A21CB800DB0461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5592B26028A21CB800DB0461 /* Assets.xcassets */; };
 		5592B26428A21CB800DB0461 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5592B26328A21CB800DB0461 /* Preview Assets.xcassets */; };
 		5592B26628A21CB800DB0461 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B26528A21CB800DB0461 /* Persistence.swift */; };
@@ -16,6 +15,10 @@
 		5592B27328A21CB800DB0461 /* AnimationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B27228A21CB800DB0461 /* AnimationsTests.swift */; };
 		5592B27D28A21CB800DB0461 /* AnimationsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B27C28A21CB800DB0461 /* AnimationsUITests.swift */; };
 		5592B27F28A21CB800DB0461 /* AnimationsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B27E28A21CB800DB0461 /* AnimationsUITestsLaunchTests.swift */; };
+		5592B28E28A21D5F00DB0461 /* Paris_animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B28D28A21D5F00DB0461 /* Paris_animation.swift */; };
+		5592B29228A21DAB00DB0461 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 5592B29128A21DAB00DB0461 /* Lottie */; };
+		5592B29428A21DB700DB0461 /* guy3.json in Resources */ = {isa = PBXBuildFile; fileRef = 5592B29328A21DB700DB0461 /* guy3.json */; };
+		5592B29628A21DDB00DB0461 /* animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5592B29528A21DDB00DB0461 /* animation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,6 @@
 /* Begin PBXFileReference section */
 		5592B25928A21CB800DB0461 /* Animations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5592B25C28A21CB800DB0461 /* AnimationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsApp.swift; sourceTree = "<group>"; };
-		5592B25E28A21CB800DB0461 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5592B26028A21CB800DB0461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5592B26328A21CB800DB0461 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5592B26528A21CB800DB0461 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -48,6 +50,9 @@
 		5592B27828A21CB800DB0461 /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5592B27C28A21CB800DB0461 /* AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITests.swift; sourceTree = "<group>"; };
 		5592B27E28A21CB800DB0461 /* AnimationsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5592B28D28A21D5F00DB0461 /* Paris_animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paris_animation.swift; sourceTree = "<group>"; };
+		5592B29328A21DB700DB0461 /* guy3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = guy3.json; sourceTree = "<group>"; };
+		5592B29528A21DDB00DB0461 /* animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5592B29228A21DAB00DB0461 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,9 +104,10 @@
 		5592B25B28A21CB800DB0461 /* Animations */ = {
 			isa = PBXGroup;
 			children = (
+				5592B28F28A21D7400DB0461 /* jsonfiles */,
+				5592B28C28A21D3000DB0461 /* Screens */,
+				5592B28B28A21CCB00DB0461 /* apputils */,
 				5592B25C28A21CB800DB0461 /* AnimationsApp.swift */,
-				5592B25E28A21CB800DB0461 /* ContentView.swift */,
-				5592B26028A21CB800DB0461 /* Assets.xcassets */,
 				5592B26528A21CB800DB0461 /* Persistence.swift */,
 				5592B26728A21CB800DB0461 /* Animations.xcdatamodeld */,
 				5592B26228A21CB800DB0461 /* Preview Content */,
@@ -133,6 +140,31 @@
 			path = AnimationsUITests;
 			sourceTree = "<group>";
 		};
+		5592B28B28A21CCB00DB0461 /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				5592B26028A21CB800DB0461 /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		5592B28C28A21D3000DB0461 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				5592B28D28A21D5F00DB0461 /* Paris_animation.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		5592B28F28A21D7400DB0461 /* jsonfiles */ = {
+			isa = PBXGroup;
+			children = (
+				5592B29328A21DB700DB0461 /* guy3.json */,
+				5592B29528A21DDB00DB0461 /* animation.swift */,
+			);
+			path = jsonfiles;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +181,9 @@
 			dependencies = (
 			);
 			name = Animations;
+			packageProductDependencies = (
+				5592B29128A21DAB00DB0461 /* Lottie */,
+			);
 			productName = Animations;
 			productReference = 5592B25928A21CB800DB0461 /* Animations.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +256,9 @@
 				Base,
 			);
 			mainGroup = 5592B25028A21CB800DB0461;
+			packageReferences = (
+				5592B29028A21DAB00DB0461 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 5592B25A28A21CB800DB0461 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5592B29428A21DB700DB0461 /* guy3.json in Resources */,
 				5592B26428A21CB800DB0461 /* Preview Assets.xcassets in Resources */,
 				5592B26128A21CB800DB0461 /* Assets.xcassets in Resources */,
 			);
@@ -264,8 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5592B26628A21CB800DB0461 /* Persistence.swift in Sources */,
-				5592B25F28A21CB800DB0461 /* ContentView.swift in Sources */,
+				5592B29628A21DDB00DB0461 /* animation.swift in Sources */,
 				5592B26928A21CB800DB0461 /* Animations.xcdatamodeld in Sources */,
+				5592B28E28A21D5F00DB0461 /* Paris_animation.swift in Sources */,
 				5592B25D28A21CB800DB0461 /* AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -585,6 +625,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5592B29028A21DAB00DB0461 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5592B29128A21DAB00DB0461 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5592B29028A21DAB00DB0461 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		5592B26728A21CB800DB0461 /* Animations.xcdatamodeld */ = {
